@@ -10,10 +10,12 @@ namespace HomeworkTask8
     {
         static void Main(string[] args)
         {
-            Console.Write("Birth ID: ");
+            Console.Write("Enter a word with a lenght of 8 letters: ");
 
-            Console.ReadLine();
-            // can't solve it
+            string word = Console.ReadLine();
+
+            Console.Write("The 4th letter is: ");
+            Console.WriteLine(word [3]);
         }
     }
 }
