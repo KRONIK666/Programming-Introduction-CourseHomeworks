@@ -1,0 +1,6 @@
+D:\SOFT INTELLECT\CourseHomeworks\ClassworkIfElseSwitch\IfElse\bin\Debug\IfElse.exe.config
+D:\SOFT INTELLECT\CourseHomeworks\ClassworkIfElseSwitch\IfElse\bin\Debug\IfElse.exe
+D:\SOFT INTELLECT\CourseHomeworks\ClassworkIfElseSwitch\IfElse\bin\Debug\IfElse.pdb
+D:\SOFT INTELLECT\CourseHomeworks\ClassworkIfElseSwitch\IfElse\obj\Debug\IfElse.csprojResolveAssemblyReference.cache
+D:\SOFT INTELLECT\CourseHomeworks\ClassworkIfElseSwitch\IfElse\obj\Debug\IfElse.exe
+D:\SOFT INTELLECT\CourseHomeworks\ClassworkIfElseSwitch\IfElse\obj\Debug\IfElse.pdb

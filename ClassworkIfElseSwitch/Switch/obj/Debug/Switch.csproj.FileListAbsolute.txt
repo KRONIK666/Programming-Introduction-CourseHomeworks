@@ -1,0 +1,6 @@
+D:\SOFT INTELLECT\CourseHomeworks\ClassworkIfElseSwitch\Switch\bin\Debug\Switch.exe.config
+D:\SOFT INTELLECT\CourseHomeworks\ClassworkIfElseSwitch\Switch\bin\Debug\Switch.exe
+D:\SOFT INTELLECT\CourseHomeworks\ClassworkIfElseSwitch\Switch\bin\Debug\Switch.pdb
+D:\SOFT INTELLECT\CourseHomeworks\ClassworkIfElseSwitch\Switch\obj\Debug\Switch.csprojResolveAssemblyReference.cache
+D:\SOFT INTELLECT\CourseHomeworks\ClassworkIfElseSwitch\Switch\obj\Debug\Switch.exe
+D:\SOFT INTELLECT\CourseHomeworks\ClassworkIfElseSwitch\Switch\obj\Debug\Switch.pdb
