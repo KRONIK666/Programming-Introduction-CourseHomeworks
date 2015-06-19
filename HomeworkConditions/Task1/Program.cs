@@ -10,35 +10,48 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter day of the week: ");
-            int day = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter a town from Top 10 towns by population in Bulgaria:");
+            int town = int.Parse(Console.ReadLine());
 
-            switch (day)
+            if (town >= 0 && town <= 9)
             {
-                case 1:
-                    Console.WriteLine("Monday");
-                    break;
-                case 2:
-                    Console.WriteLine("Tuesday");
-                    break;
-                case 3:
-                    Console.WriteLine("Wednesday");
-                    break;
-                case 4:
-                    Console.WriteLine("Thursday");
-                    break;
-                case 5:
-                    Console.WriteLine("Friday");
-                    break;
-                case 6:
-                    Console.WriteLine("Saturday");
-                    break;
-                case 7:
-                    Console.WriteLine("Sunday");
-                    break;
-                default:
-                    Console.WriteLine("Invalid day!");
-                    break;
+                switch (town)
+                {
+                    case 0:
+                        Console.WriteLine("Sofia");
+                        break;
+                    case 1:
+                        Console.WriteLine("Plovdiv");
+                        break;
+                    case 2:
+                        Console.WriteLine("Varna");
+                        break;
+                    case 3:
+                        Console.WriteLine("Burgas");
+                        break;
+                    case 4:
+                        Console.WriteLine("Ruse");
+                        break;
+                    case 5:
+                        Console.WriteLine("Stara Zagora");
+                        break;
+                    case 6:
+                        Console.WriteLine("Pleven");
+                        break;
+                    case 7:
+                        Console.WriteLine("Dobrich");
+                        break;
+                    case 8:
+                        Console.WriteLine("Sliven");
+                        break;
+                    case 9:
+                        Console.WriteLine("Shumen");
+                        break;
+                }
+            }
+            else
+            {
+                Console.WriteLine("No such town in Top 10!");
             }
         }
     }

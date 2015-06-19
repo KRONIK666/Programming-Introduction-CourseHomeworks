@@ -10,45 +10,30 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number:");
-            int numInt = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter your Bonus points:");
+            int Bonus = int.Parse(Console.ReadLine());
 
-            if (numInt >= 1 && numInt <= 5)
+            if (Bonus >= 1 && Bonus <= 9)
             {
-                if (numInt % 2 == 0)
+                if (Bonus >= 1 && Bonus <= 3)
                 {
-                    Console.WriteLine("The number is even!");
+                    Console.Write("Total Bonus points: ");
+                    Console.WriteLine(Bonus * 5);
                 }
-                else
+                else if (Bonus >= 4 && Bonus <= 6)
                 {
-                    Console.WriteLine("The number is odd!");
+                    Console.Write("Total Bonus points: ");
+                    Console.WriteLine(Bonus * 10);
                 }
-            }
-            else if (numInt >= 6 && numInt <= 15)
-            {
-                if (numInt % 3 == 0)
+                else if (Bonus >= 7 && Bonus <= 9)
                 {
-                    Console.WriteLine("Дели се на 3 без остатък");
-                }
-                else
-                {
-                    Console.WriteLine("Не се дели на 3 без остатък");
+                    Console.Write("Total Bonus points: ");
+                    Console.WriteLine(Bonus * 50);
                 }
             }
             else
             {
-                if (numInt > 0)
-                {
-                    Console.WriteLine("Числото е по-голямо от 0");
-                }
-                else if (numInt < 0)
-                {
-                    Console.WriteLine("Числото е по-малко от 0");
-                }
-                else if (numInt == 0)
-                {
-                    Console.WriteLine("Числото е равно на 0");
-                }
+                Console.WriteLine("Extreme Bonus points gained! Next Level!");
             }
         }
     }

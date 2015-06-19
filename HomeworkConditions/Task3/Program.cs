@@ -10,57 +10,64 @@ namespace Task3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter day of the week: ");
-            int day = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please, enter a playing card (enter 0 for card #10):");
+            char card = char.Parse(Console.ReadLine());
 
-            switch (day)
+            if (card == '2')
             {
-                case 1:
-                    Console.WriteLine("Monday");
-                    break;
-                case 2:
-                    Console.WriteLine("Tuesday");
-                    break;
-                case 3:
-                    Console.WriteLine("Wednesday");
-                    break;
-                case 4:
-                    Console.WriteLine("Thursday");
-                    break;
-                case 5:
-                    Console.WriteLine("Friday");
-                    break;
-                case 6:
-                    Console.WriteLine("Saturday");
-                    break;
-                case 7:
-                    Console.WriteLine("Sunday");
-                    break;
-                default:
-                    Console.WriteLine("Invalid day!");
-                    break;
+                Console.WriteLine("Valid card!");
             }
-
-            Console.WriteLine("Enter a letter or string: ");
-            string str = Console.ReadLine();
-
-            switch (str)
+            else if (card == '3')
             {
-                case "a":
-                case "b":
-                case "c":
-                    Console.WriteLine("A,B,C");
-                    break;
-
-                case "x":
-                case "y":
-                case "z":
-                    Console.WriteLine("X,Y,Z");
-                    break;
-
-                default:
-                    Console.WriteLine("Default");
-                    break;
+                Console.WriteLine("Valid card!");
+            }
+            else if (card == '4')
+            {
+                Console.WriteLine("Valid card!");
+            }
+            else if (card == '5')
+            {
+                Console.WriteLine("Valid card!");
+            }
+            else if (card == '6')
+            {
+                Console.WriteLine("Valid card!");
+            }
+            else if (card == '7')
+            {
+                Console.WriteLine("Valid card!");
+            }
+            else if (card == '8')
+            {
+                Console.WriteLine("Valid card!");
+            }
+            else if (card == '9')
+            {
+                Console.WriteLine("Valid card!");
+            }
+            else if (card == '0')
+            {
+                Console.WriteLine("Valid card!");
+            }
+            else if (card == 'J')
+            {
+                Console.WriteLine("Valid card!");
+            }
+            else if (card == 'Q')
+            {
+                Console.WriteLine("Valid card!");
+            }
+            else if (card == 'K')
+            {
+                Console.WriteLine("Valid card!");
+            }
+            else if (card == 'A')
+            {
+                Console.WriteLine("Valid card!");
+            }
+            else
+            {
+                Console.WriteLine("Invalid card!");
             }
         }
     }
