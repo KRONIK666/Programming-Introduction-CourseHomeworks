@@ -28,11 +28,11 @@ namespace IfElse
             {
                 if (numInt % 3 == 0)
                 {
-                    Console.WriteLine("True");
+                    Console.WriteLine("True!");
                 }
                 else
                 {
-                    Console.WriteLine("False");
+                    Console.WriteLine("False!");
                 }
             }
             else
