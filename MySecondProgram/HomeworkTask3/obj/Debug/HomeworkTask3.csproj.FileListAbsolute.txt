@@ -1,6 +1,0 @@
-D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask3\bin\Debug\HomeworkTask3.exe.config
-D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask3\bin\Debug\HomeworkTask3.exe
-D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask3\bin\Debug\HomeworkTask3.pdb
-D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask3\obj\Debug\HomeworkTask3.exe
-D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask3\obj\Debug\HomeworkTask3.pdb
-D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask3\obj\Debug\HomeworkTask3.csprojResolveAssemblyReference.cache

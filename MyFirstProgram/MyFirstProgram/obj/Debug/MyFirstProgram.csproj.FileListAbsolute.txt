@@ -1,6 +1,0 @@
-D:\SOFT INTELLECT\CourseHomeworks\MyFirstProgram\MyFirstProgram\bin\Debug\MyFirstProgram.exe.config
-D:\SOFT INTELLECT\CourseHomeworks\MyFirstProgram\MyFirstProgram\bin\Debug\MyFirstProgram.exe
-D:\SOFT INTELLECT\CourseHomeworks\MyFirstProgram\MyFirstProgram\bin\Debug\MyFirstProgram.pdb
-D:\SOFT INTELLECT\CourseHomeworks\MyFirstProgram\MyFirstProgram\obj\Debug\MyFirstProgram.csprojResolveAssemblyReference.cache
-D:\SOFT INTELLECT\CourseHomeworks\MyFirstProgram\MyFirstProgram\obj\Debug\MyFirstProgram.exe
-D:\SOFT INTELLECT\CourseHomeworks\MyFirstProgram\MyFirstProgram\obj\Debug\MyFirstProgram.pdb

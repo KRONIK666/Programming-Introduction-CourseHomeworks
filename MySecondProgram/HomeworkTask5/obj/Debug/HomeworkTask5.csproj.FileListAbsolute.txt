@@ -1,5 +1,0 @@
-D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask5\bin\Debug\HomeworkTask5.exe.config
-D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask5\bin\Debug\HomeworkTask5.exe
-D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask5\bin\Debug\HomeworkTask5.pdb
-D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask5\obj\Debug\HomeworkTask5.exe
-D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask5\obj\Debug\HomeworkTask5.pdb
