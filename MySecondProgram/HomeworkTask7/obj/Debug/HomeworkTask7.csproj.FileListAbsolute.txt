@@ -1,0 +1,5 @@
+D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask7\bin\Debug\HomeworkTask7.exe.config
+D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask7\bin\Debug\HomeworkTask7.exe
+D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask7\bin\Debug\HomeworkTask7.pdb
+D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask7\obj\Debug\HomeworkTask7.exe
+D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask7\obj\Debug\HomeworkTask7.pdb

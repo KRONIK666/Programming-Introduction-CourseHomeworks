@@ -1,0 +1,6 @@
+D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask2\bin\Debug\HomeworkTask2.exe.config
+D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask2\bin\Debug\HomeworkTask2.exe
+D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask2\bin\Debug\HomeworkTask2.pdb
+D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask2\obj\Debug\HomeworkTask2.csprojResolveAssemblyReference.cache
+D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask2\obj\Debug\HomeworkTask2.exe
+D:\SOFT INTELLECT\CourseHomeworks\MySecondProgram\HomeworkTask2\obj\Debug\HomeworkTask2.pdb
