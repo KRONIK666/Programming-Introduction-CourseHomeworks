@@ -10,65 +10,54 @@ namespace Task3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please, enter a playing card (enter 0 for card #10):");
-            char card = char.Parse(Console.ReadLine());
+            Console.WriteLine("Please, enter a playing card:");
+            string card = (Console.ReadLine());
 
-            if (card == '2')
-            {
-                Console.WriteLine("Valid card!");
-            }
-            else if (card == '3')
-            {
-                Console.WriteLine("Valid card!");
-            }
-            else if (card == '4')
-            {
-                Console.WriteLine("Valid card!");
-            }
-            else if (card == '5')
-            {
-                Console.WriteLine("Valid card!");
-            }
-            else if (card == '6')
-            {
-                Console.WriteLine("Valid card!");
-            }
-            else if (card == '7')
-            {
-                Console.WriteLine("Valid card!");
-            }
-            else if (card == '8')
-            {
-                Console.WriteLine("Valid card!");
-            }
-            else if (card == '9')
-            {
-                Console.WriteLine("Valid card!");
-            }
-            else if (card == '0')
-            {
-                Console.WriteLine("Valid card!");
-            }
-            else if (card == 'J')
-            {
-                Console.WriteLine("Valid card!");
-            }
-            else if (card == 'Q')
-            {
-                Console.WriteLine("Valid card!");
-            }
-            else if (card == 'K')
-            {
-                Console.WriteLine("Valid card!");
-            }
-            else if (card == 'A')
-            {
-                Console.WriteLine("Valid card!");
-            }
-            else
-            {
-                Console.WriteLine("Invalid card!");
-            }
+            switch (card)
+                {
+                    case "2":
+                        Console.WriteLine("Valid card!");
+                        break;
+                    case "3":
+                        Console.WriteLine("Valid card!");
+                        break;
+                    case "4":
+                        Console.WriteLine("Valid card!");
+                        break;
+                    case "5":
+                        Console.WriteLine("Valid card!");
+                        break;
+                    case "6":
+                        Console.WriteLine("Valid card!");
+                        break;
+                    case "7":
+                        Console.WriteLine("Valid card!");
+                        break;
+                    case "8":
+                        Console.WriteLine("Valid card!");
+                        break;
+                    case "9":
+                        Console.WriteLine("Valid card!");
+                        break;
+                    case "10":
+                        Console.WriteLine("Valid card!");
+                        break;
+                    case "J":
+                        Console.WriteLine("Valid card!");
+                        break;
+                    case "Q":
+                        Console.WriteLine("Valid card!");
+                        break;
+                    case "K":
+                        Console.WriteLine("Valid card!");
+                        break;
+                    case "A":
+                        Console.WriteLine("Valid card!");
+                        break;
+                    default:
+                        Console.WriteLine("Invalid card!");
+                        break;
+                }
         }
     }
 }
