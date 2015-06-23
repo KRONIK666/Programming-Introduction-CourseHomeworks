@@ -21,9 +21,9 @@ namespace Task2
             }
             for (int num = 0; num < myArray.Length; num++)
             {
-
-                Console.WriteLine(myArray[num]);
+                Console.WriteLine(" " + myArray[num]);
             }
+            Console.WriteLine();
         }
     }
 }

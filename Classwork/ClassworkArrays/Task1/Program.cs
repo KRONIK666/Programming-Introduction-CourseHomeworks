@@ -19,8 +19,9 @@ namespace Task1
             }
             foreach (int num in myCopy)
             {
-                Console.WriteLine(num);
+                Console.WriteLine(" " + num);
             }
+            Console.WriteLine();
         }
     }
 }
