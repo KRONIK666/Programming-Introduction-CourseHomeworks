@@ -10,46 +10,38 @@ namespace Task5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter 3 numbers:");
-            int a = int.Parse(Console.ReadLine());
-            int b = int.Parse(Console.ReadLine());
-            int c = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter 10 numbers:");
 
-            int counter = 1;
+            int lowest = 0;
+            int highest = 0;
+            
+            for (int counter = 1; counter <= 10; counter++)
+            {
+                Console.Write("Number {0}: ", counter);
+                int number = int.Parse(Console.ReadLine());
 
-            do
+                if (counter == 1)
                 {
-                    if (a < b && a < c)
+                    lowest = number;
+                    highest = number;
+                }
+                else
+                {
+                    if (number < lowest)
                     {
-                        Console.WriteLine();
-                        Console.WriteLine("Lowest number: " + a);
+                        lowest = number;
                     }
-                    else if (b < a && b < c)
+                    else if (number > highest)
                     {
-                        Console.WriteLine();
-                        Console.WriteLine("Lowest number: " + b);
+                        highest = number;
                     }
-                    else if (c < a && c < b)
-                    {
-                        Console.WriteLine();
-                        Console.WriteLine("Lowest number: " + c);
-                    }
-                    if (a > b && a > c)
-                    {
-                        Console.WriteLine("Highest number: " + a);
-                        Console.WriteLine();
-                    }
-                    else if (b > a && b > c)
-                    {
-                        Console.WriteLine("Highest number: " + b);
-                        Console.WriteLine();
-                    }
-                    else if (c > a && c > b)
-                    {
-                        Console.WriteLine("Highest number: " + c);
-                        Console.WriteLine();
-                    } counter++;
-            } while (counter <= 1);
+                }
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Lowest number: {0}", lowest);
+            Console.WriteLine("Highest number: {0}", highest);
+            Console.WriteLine();
         }
     }
 }
