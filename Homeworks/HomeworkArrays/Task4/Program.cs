@@ -25,6 +25,8 @@ namespace Task4
             Console.Write("Search Index of element: ");
             int e = int.Parse(Console.ReadLine());
 
+            bool isFound = false;
+
             for (int i = 0; i < n; i++)
             {
                 if (e == myArray[i])
@@ -32,8 +34,15 @@ namespace Task4
                     Console.WriteLine();
                     Console.WriteLine("The Index is: " + i);
                     Console.WriteLine();
+                    isFound = true;
                     break;
                 }
+            }
+            if (!isFound)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Not found!");
+                Console.WriteLine();
             }
         }
     }
