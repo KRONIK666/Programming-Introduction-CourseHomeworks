@@ -10,6 +10,7 @@ namespace ClassworkMatrix
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter array's elements: ");
             int[,] Matrix = new int[4, 4];
 
             for (int i = 0; i < Matrix.GetLength(0); i++)
@@ -21,6 +22,8 @@ namespace ClassworkMatrix
             }
 
             Console.WriteLine();
+            Console.WriteLine("Your matrix is: ");
+            Console.WriteLine();
 
             for (int i = 0; i < Matrix.GetLength(0); i++)
             {
@@ -28,8 +31,8 @@ namespace ClassworkMatrix
                 {
                     Console.Write(Matrix[i,j] + " ");
                 } Console.WriteLine();
-            }
-            Console.WriteLine();
+            } Console.WriteLine();
+
             for (int i = 0; i < Matrix.GetLength(0); i++)
             {
                 for (int j = 0; j < Matrix.GetLength(1); j++)
@@ -39,7 +42,7 @@ namespace ClassworkMatrix
                         Matrix[i, j] = Matrix[i, j] * 2;
                     } Console.Write(Matrix[i, j] + " ");
                 } Console.WriteLine();
-            }
+            } Console.WriteLine();
         }
     }
 }
