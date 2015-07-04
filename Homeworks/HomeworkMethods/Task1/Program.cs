@@ -24,16 +24,16 @@ namespace Task1
             }
             else if (z < x)
             {
-                MaxNumber(x, y);
+                PrintMaxNumber(x, y);
             }
             else if (z < y)
             {
-                MaxNumber(x, y);
+                PrintMaxNumber(x, y);
             }
             Console.WriteLine();
         }
 
-        private static void MaxNumber(int x, int y)
+        private static void PrintMaxNumber(int x, int y)
         {
             if (x > y)
             {

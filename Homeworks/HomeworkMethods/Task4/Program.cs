@@ -15,12 +15,12 @@ namespace Task4
                 Console.Write("Enter a number: ");
                 int num = int.Parse(Console.ReadLine());
 
-                Number(num);
+                DefineNumber(num);
                 Console.WriteLine();
             }
         }
 
-        private static void Number(int num)
+        private static void DefineNumber(int num)
         {
             if (num % 2 == 0)
             {

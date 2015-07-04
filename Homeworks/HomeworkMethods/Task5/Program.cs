@@ -15,24 +15,31 @@ namespace Task5
 
             for (int i = 10; i <= 999; i++)
             {
-                Symmetric(i);
+                PrintSymmetric(i);
             }
             Console.WriteLine();
         }
 
-        private static void Symmetric(int i)
+        private static void PrintSymmetric(int num)
         {
-            if (i % 11 == 0 && i <= 100)
+            if (num < 10 || num > 999)
             {
-                Console.WriteLine(i);
+                Console.WriteLine("The number is out of range!");
+                return;
             }
-            if (i % 101 == 0)
-                {
-                    Console.WriteLine(i);
-                }
-            if (i % 111 == 0)
+            if (num % 11 == 0 && num < 100)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(num);
+            }
+            if (num >= 100)
+            {
+                int firstNumber = num / 100;
+                int lastNumber = num % 10;
+
+                if (firstNumber == lastNumber)
+                {
+                    Console.WriteLine(num);
+                }
             }
         }
     }

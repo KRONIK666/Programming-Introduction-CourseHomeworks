@@ -20,15 +20,15 @@ namespace Task3
                 int z = int.Parse(Console.ReadLine());
 
                 Console.WriteLine();
-                Result(x, y, z);
+                Console.WriteLine("Result: " + CalculateResult(x, y, z));
                 Console.WriteLine();
             }
         }
 
-        private static void Result(int x, int y, int z)
+        private static int CalculateResult(int x, int y, int z)
         {
             int result = x * y * z;
-            Console.WriteLine("Result: " + result);
+            return result;
         }
     }
 }
