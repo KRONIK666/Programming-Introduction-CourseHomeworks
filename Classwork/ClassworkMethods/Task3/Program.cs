@@ -24,12 +24,12 @@ namespace Task3
             Console.WriteLine("Your array is:");
             Console.WriteLine();
 
-            Array(massive);
+            BuildArray(massive);
 
             Console.WriteLine();
         }
 
-        private static void Array(int[] massive)
+        private static void BuildArray(int[] massive)
         {
             for (int i = massive.Length - 1; i >= 0; i--)
             {
