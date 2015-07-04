@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExamPreparation
+namespace ExamPreparation1
 {
     class Program
     {
@@ -14,24 +14,21 @@ namespace ExamPreparation
 
             int min = int.MaxValue;
             int max = int.MinValue;
-            int minIndex = 0;
-            int maxIndex = 0;
 
             for (int i = 0; i < myArray.Length; i++)
             {
                 if (i % 2 == 0 && myArray[i] > max)
                 {
                     max = myArray[i];
-                    maxIndex = i;
                 }
                 if (i % 2 == 1 && myArray[i] < min)
                 {
                     min = myArray[i];
-                    minIndex = i;
                 }
             }
-            Console.WriteLine(max);
-            Console.WriteLine(min);
+            Console.WriteLine("Max number between even indexes: " + max);
+            Console.WriteLine("Min number between odd indexes: " + min);
+            Console.WriteLine();
         }
     }
 }
