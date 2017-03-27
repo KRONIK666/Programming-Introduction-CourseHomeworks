@@ -1,4 +1,4 @@
-# CourseHomeworks
+# C# Programming Course
 
 Basic C# programs with algorithms written in Console Applications.
 
